@@ -1,0 +1,131 @@
+/* xs */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+
+
+body {
+  background: #222;
+}
+
+h1 {
+  background-image: linear-gradient(to bottom right, orange, yellow);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Sedgwick Ave Display;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+
+tr {
+  background: #404040;
+}
+
+tr:hover {
+  cursor: pointer;
+  background: #666;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  position: relative;
+  padding: 5px 0 15px 0;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.middle {
+  text-align: center;
+}
+
+.profPic {
+  height: 80px;
+  width: 80px;
+}
+
+.pubgPic {
+  float: left;
+  height: auto;
+  width: 40px;
+  position: absolute;
+  top: 50px;
+}
+
+.viewCount {
+  color: orange;
+}
+
+.noshow {
+  display: none;
+}
+
+.row {
+  justify-content: center;
+}
+
+.col-lg-10 {
+  margin: 0 0 100px 0;
+}
+
+.footer {
+  color: white;
+  margin: 0 0 100px 0;
+}
+
+#bannerPic {
+  background-repeat: no-repeat;
+  height: auto;
+  max-height: 260px;
+  width: auto;
+  border-radius: 20px;
+}
+
+#bannerDiv {
+  margin: 70px 0 40px 0;
+  text-align: center;
+  position: relative;
+}
+
+#bannerTitle {
+  top: 100px;
+}
